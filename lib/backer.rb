@@ -1,5 +1,5 @@
 class Backer
-  attr_accesor :name, :backed_projects
+  attr_accessor :name, :backed_projects
 
   def initilize(name)
     @name = name
