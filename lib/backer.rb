@@ -12,6 +12,6 @@ class Backer
     @backer.back_project(self) unless @backer.back_project.icludes?(self)
     end
   end
-end
+
 
 end
