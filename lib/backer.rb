@@ -11,5 +11,5 @@ class Backer
     @backed_projects << project unless @backed_projects.includes?(project)
     end
   end
-  
+
 end
