@@ -9,6 +9,7 @@ class Backer
 
   def back_project(project)
     @backed_projects << project unless @backed_projects.includes?(project)
+    end
   end
-  end
+  
 end
