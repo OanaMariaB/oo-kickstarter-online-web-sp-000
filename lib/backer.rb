@@ -12,5 +12,4 @@ class Backer
     backer.back_project(self) unless backer.back_project.iclude?(self)
   end
 
-
 end
